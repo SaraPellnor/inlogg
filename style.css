@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-style:italic;
-}/*dgzdfhfdhzd*/
+}
 
 body {
     
@@ -15,10 +15,10 @@ body {
     align-items: center;
 }
 
-video { /*Videon i headern*/
-    display: none;
-    z-index: -1; /*videon ligger bakom texten i headern*/
-    object-fit: cover;  /*videon täcker hela headern*/
+video {
+    display: none; /*standard att inte visa bakgrundsvideon*/
+    z-index: -1; 
+    object-fit: cover;
     position: absolute; 
     right: 0;
     bottom: 0;
