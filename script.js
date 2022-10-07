@@ -94,6 +94,7 @@ function logInFunction () {
 function success () {
     
     h1.innerHTML = "Välkommen " + JSON.parse (localStorage.getItem ("user"));
+    h1.style.color = "black";
     logInBtn.style.display = "none";
     logOutBtn.style.display = "block";
     loginForm.style.display = "none";
